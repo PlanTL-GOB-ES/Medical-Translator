@@ -2,7 +2,6 @@
 
 
 ## Introduction
-------------
 
 This package contains the files needed to use the Neural Machine Translation (NMT) system
 for the Biomedical Domain.
@@ -20,9 +19,9 @@ Translation models must be downloaded from the Zenodo repository
 ## Prerequisites
 -------------
 
-This package uses the Torch implementation of the OpenNMT system (http://opennmt.net/)
-Instructions to install the system are found in: http://opennmt.net/OpenNMT/installation/
-Download translation models available at: INCLUDE ZENODO REPO
+This package uses the Torch implementation of the OpenNMT system (http://opennmt.net/)  
+Instructions to install the system are found in: http://opennmt.net/OpenNMT/installation/  
+Download translation models available at: INCLUDE ZENODO REPO  
 
 ## Directory structure
 -------------------
