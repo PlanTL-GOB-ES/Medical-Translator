@@ -7,29 +7,29 @@ This package contains the files needed to use the Neural Machine Translation (NM
 for the Biomedical Domain.
 
 The available language directions for translation are:
-	- English to Spanish
-	- Spanish to English
-	- English to Portuguese
-	- Portuguese to English
-	- Spanish to Portuguese
-	- Portuguese to Spanish
+* English to Spanish
+* Spanish to English
+* English to Portuguese
+* Portuguese to English
+* Spanish to Portuguese
+* Portuguese to Spanish
 
-Translation models must be downloaded from the Zenodo repository
+Translation models must be downloaded from the Zenodo repository.
+
+In addition, glossaries from disease names from MeSH and OMIM were already translated, as well as chemical compounds from CHEBI. All of them are also available in Zenodo.
+
 
 ## Prerequisites
--------------
+
 
 This package uses the Torch implementation of the OpenNMT system (http://opennmt.net/)  
 Instructions to install the system are found in: http://opennmt.net/OpenNMT/installation/  
-Download translation models available at: INCLUDE ZENODO REPO  
+Download translation models available at: 
 
 ## Directory structure
--------------------
+
 
 <pre>
-enes_pt.bpe32000 - BPE file for English/Spanish to Portuguese tokenization
-enpt_es.bpe32000 - BPE file for English/Portuguese to Spanish tokenization
-espt_en.bpe32000 - BPE file for Spanish/Portuguese to English tokenization
 Tokenize.sh 	 - Utility script to tokenize the input file using BPE (needed for translation)
 </pre> 
 
