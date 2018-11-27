@@ -32,8 +32,18 @@ Download translation models available at:
 <pre>
 Tokenize.sh 	 - Utility script to tokenize the input file using BPE (needed for translation)
 </pre> 
-
-
+In Zenodo you will find the following files:
+<pre>
+enes_pt.bpe32000 	 - BPE encoding where source language are either EN/ES and target is PT
+enpt_es.bpe32000 	 - BPE encoding where source language are either EN/PT and target is ES
+espt_en.bpe32000 	 - BPE encoding where source language are either ES/PT and target is EN
+onmt_enes_pt-4-1000-600_epoch11_62.74_release.t7 - OpenNMT model in release format (EN/ES) -> PT
+onmt_enpt_es-4-1000-600_epoch11_60.38_release.t7 - OpenNMT model in release format (EN/PT) -> ES
+onmt_espt_en-4-1000-600_epoch6_51.52_release.t7 - OpenNMT model in release format (ES/PT) -> EN
+onmt_enes_pt-4-1000-600_epoch11_62.74.t7 - OpenNMT model in original format (EN/ES) -> PT
+onmt_enpt_es-4-1000-600_epoch11_60.38_.t7 - OpenNMT model in original format (EN/PT) -> ES
+onmt_espt_en-4-1000-600_epoch6_51.52.t7 - OpenNMT model in original format (ES/PT) -> EN
+</pre> 
 ## Usage
 
 
@@ -49,6 +59,9 @@ Options:
 -o : Path to the OpenNMT installation directory
 </pre>
 
+OpenNMT models:
+* Release format: Can be translated using GPU or CPU, cannot be modified or retrained
+* Original format: Can be translated only with GPU, can be modified or retrained using Torch OpenNMT
 
 ## Examples
 
