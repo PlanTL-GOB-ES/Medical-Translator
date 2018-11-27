@@ -35,7 +35,7 @@ Tokenize.sh 	 - Utility script to tokenize the input file using BPE (needed for 
 
 
 ## Usage
------
+
 
 Tokenize.sh [options] 
 
@@ -51,7 +51,7 @@ Options:
 
 
 ## Examples
---------
+
 
 <pre>
 $ .Tokenize.sh -d /home/user/data -s en -t es -f /home/user/text.txt -n 4 -o /home/user/OpenNMT
@@ -61,13 +61,13 @@ $ th translate.lua -model /home/user/data/onmt_enpt_es-4-1000-600_epoch11_60.38_
 
 
 ## Contact
-------
+
 
 Felipe Soares (felipe.soares@bsc.es)
 
 
 ## License
--------
+
 
 Copyright (c) 2017-2018 Secretaría de Estado para el Avance Digital (SEAD)
 
