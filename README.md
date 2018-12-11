@@ -14,7 +14,7 @@ The available language directions for translation are:
 * Spanish to Portuguese
 * Portuguese to Spanish
 
-Translation models must be downloaded from the Zenodo repository: 
+Translation models must be downloaded from the Zenodo repository: https://doi.org/10.5281/zenodo.2204995
 
 
 ## Prerequisites
