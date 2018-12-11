@@ -14,14 +14,13 @@ The available language directions for translation are:
 * Spanish to Portuguese
 * Portuguese to Spanish
 
-Translation models must be downloaded from the Zenodo repository.
+Translation models must be downloaded from the Zenodo repository: 
 
 
 ## Prerequisites
 
-This package uses the Torch implementation of the OpenNMT system (http://opennmt.net/)  
-Instructions to install the system are found in: http://opennmt.net/OpenNMT/installation/  
-Download translation models available at: 
+This package uses the Torch implementation of the OpenNMT system (http://opennmt.net/). Instructions to install the 
+system are found in: http://opennmt.net/OpenNMT/installation/  
 
 
 ## Directory structure
