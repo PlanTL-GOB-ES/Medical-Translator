@@ -16,18 +16,15 @@ The available language directions for translation are:
 
 Translation models must be downloaded from the Zenodo repository.
 
-In addition, glossaries from disease names from MeSH and OMIM were already translated, as well as chemical compounds from CHEBI. All of them are also available in Zenodo.
-
 
 ## Prerequisites
-
 
 This package uses the Torch implementation of the OpenNMT system (http://opennmt.net/)  
 Instructions to install the system are found in: http://opennmt.net/OpenNMT/installation/  
 Download translation models available at: 
 
-## Directory structure
 
+## Directory structure
 
 <pre>
 Tokenize.sh 	 - Utility script to tokenize the input file using BPE (needed for translation)
@@ -63,8 +60,8 @@ OpenNMT models:
 * Release format: Can be translated using GPU or CPU, cannot be modified or retrained
 * Original format: Can be translated only with GPU, can be modified or retrained using Torch OpenNMT
 
-## Examples
 
+## Examples
 
 <pre>
 $ .Tokenize.sh -d /home/user/data -s en -t es -f /home/user/text.txt -n 4 -o /home/user/OpenNMT
@@ -75,12 +72,10 @@ $ th translate.lua -model /home/user/data/onmt_enpt_es-4-1000-600_epoch11_60.38_
 
 ## Contact
 
-
 Felipe Soares (felipe.soares@bsc.es)
 
 
 ## License
-
 
 Copyright (c) 2017-2018 Secretaría de Estado para el Avance Digital (SEAD)
 
