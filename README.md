@@ -40,8 +40,9 @@ onmt_enes_pt-4-1000-600_epoch11_62.74.t7  - OpenNMT model in original format (EN
 onmt_enpt_es-4-1000-600_epoch11_60.38_.t7 - OpenNMT model in original format (EN/PT) -> ES
 onmt_espt_en-4-1000-600_epoch6_51.52.t7   - OpenNMT model in original format (ES/PT) -> EN
 </pre> 
-## Usage
 
+
+## Usage
 
 Tokenize.sh [options] 
 
