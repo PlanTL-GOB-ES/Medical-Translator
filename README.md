@@ -4,7 +4,7 @@
 ## Introduction
 
 This package contains the files needed to use the Neural Machine Translation (NMT) system
-for the Biomedical Domain.
+for the Biomedical Domain (WMT18 shared task). For the WMT19, see: https://github.com/PlanTL-SANIDAD/Medical-Translator-WMT19.
 
 The available language directions for translation are:
 * English to Spanish
@@ -15,6 +15,10 @@ The available language directions for translation are:
 * Portuguese to Spanish
 
 Translation models must be downloaded from the Zenodo repository: https://doi.org/10.5281/zenodo.2204995
+
+We used BPE (https://github.com/rsennrich/subword-nmt) and LSTM-based seq2seq architectures for all models.
+
+
 
 
 ## Prerequisites
